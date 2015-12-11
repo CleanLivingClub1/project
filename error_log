@@ -1,0 +1,14 @@
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant MANAGER - assumed 'MANAGER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 18
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant VIEW - assumed 'VIEW' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 23
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant ADD - assumed 'ADD' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 24
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant MODIFY - assumed 'MODIFY' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 25
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant DELETE - assumed 'DELETE' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 26
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant ALTER - assumed 'ALTER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 27
+[10-Dec-2015 14:44:11 America/Denver] PHP Notice:  Use of undefined constant USER - assumed 'USER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 30
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant MANAGER - assumed 'MANAGER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 18
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant VIEW - assumed 'VIEW' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 23
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant ADD - assumed 'ADD' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 24
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant MODIFY - assumed 'MODIFY' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 25
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant DELETE - assumed 'DELETE' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 26
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant ALTER - assumed 'ALTER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 27
+[10-Dec-2015 14:44:15 America/Denver] PHP Notice:  Use of undefined constant USER - assumed 'USER' in /home1/lovegeni/public_html/dev/view/codeinclude.php on line 30
