@@ -78,7 +78,7 @@
 						</table>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Continue Shopping</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal" href="{$smarty.const.INDEX_URL}view/items.php">Continue Shopping</button>
 						<button type="button" class="btn btn-info">Checkout</button>
 					</div>
 				</div><!-- /.modal-content -->
@@ -214,7 +214,7 @@
 									<!-- Collect the nav links, forms, and other content for toggling -->
 									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 										<ul class="nav navbar-nav">
-											<li><a href="index.html"><img src="{$TEMPLATE}img/nav-menu/nav1.jpg" class="img-responsive" alt="" /> Home</a></li>
+											<li><a href="{$smarty.const.INDEX_URL}index.php"><img src="{$TEMPLATE}img/nav-menu/nav1.jpg" class="img-responsive" alt="" /> Home</a></li>
 											<li class="dropdown hidden-xs">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="{$TEMPLATE}img/nav-menu/nav2.jpg" class="img-responsive" alt="" /> Menu <b class="caret"></b></a>
 												<ul class="dropdown-menu dropdown-md">
@@ -230,7 +230,7 @@
 																	<!-- Paragraph -->
 																	<p>Sea nut perspicacity under omni piste natures mirror of there with consequent.</p>
 																	<!-- Button -->
-																	<a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
+																	<a href="{$smarty.const.INDEX_URL}view/menu.php" class="btn btn-danger btn-xs">View Menu</a>
 																</div>
 															</div>
 															<div class="col-md-4 col-sm-6">
@@ -239,11 +239,11 @@
 																	<!-- Heading -->
 																	<h3>Non-Vegetarian</h3>
 																	<!-- Image -->
-																	<img src="img/dish/dish2.jpg" class="img-responsive" alt="" />
+																	<img src="{$TEMPLATE}img/dish/dish2.jpg" class="img-responsive" alt="" />
 																	<!-- Paragraph -->
 																	<p>Sea nut perspicacity under omni piste natures mirror as precode consequent.</p>
 																	<!-- Button -->
-																	<a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
+																	<a href="{$smarty.const.INDEX_URL}view/menu.php" class="btn btn-danger btn-xs">View Menu</a>
 																</div>
 															</div>
 															<div class="col-md-4">
@@ -256,7 +256,7 @@
 																	<!-- Paragraph -->
 																	<p>Sea nut perspicacity under omni piste natures mirror consequent.</p>
 																	<!-- Button -->
-																	<a href="menu.html" class="btn btn-danger btn-xs">View Menu</a>
+																	<a href="{$smarty.const.INDEX_URL}view/menu.php" class="btn btn-danger btn-xs">View Menu</a>
 																</div>
 															</div>
 														</div>
@@ -266,36 +266,36 @@
 											<li class="dropdown visible-xs">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Menu <b class="caret"></b></a>
 												<ul class="dropdown-menu">
-													<li><a href="menu.html">Vegetarian</a></li>
-													<li><a href="menu.html">Non Vegetarian</a></li>
-													<li><a href="menu.html">Special Menu</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/menu.php">Vegetarian</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/menu.php">Non Vegetarian</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/menu.php">Special Menu</a></li>
 												</ul>
 											</li>
-											<li><a href="gallery.html"><img src="{$TEMPLATE}img/nav-menu/nav3.jpg" class="img-responsive" alt="" /> Gallery</a></li>
+											<li><a href="{$smarty.const.INDEX_URL}view/gallery.php"><img src="{$TEMPLATE}img/nav-menu/nav3.jpg" class="img-responsive" alt="" /> Gallery</a></li>
 											<li class="dropdown">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="{$TEMPLATE}img/nav-menu/nav4.jpg" class="img-responsive" alt="" /> Shop <b class="caret"></b></a>
 												<ul class="dropdown-menu">
-													<li><a href="items.html">Shopping</a></li>
-													<li><a href="item-single.html">Order Now</a></li>
-													<li><a href="checkout.html">Checkout</a></li>
-													<li><a href="reserve-seats.html">Reservation</a></li>
-													<li><a href="contact.html">Contact Us</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/items.php">Shopping</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/item-single.php">Order Now</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/checkout.php">Checkout</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/reserve-seats.php">Reservation</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/contact.php">Contact Us</a></li>
 												</ul>
 											</li>
 											<li class="dropdown">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="{$TEMPLATE}img/nav-menu/nav5.jpg" class="img-responsive" alt="" /> Pages <b class="caret"></b></a>
 												<ul class="dropdown-menu">
-													<li><a href="error.html">404 Error</a></li>
-													<li><a href="0-base.html">Blank Page</a></li>
-													<li><a href="blog.html">Blog</a></li>
-													<li><a href="blog-single.html">Blog Single</a></li>
-													<li><a href="components.html">Components</a></li>
-													<li><a href="general.html">General</a></li>
-													<li><a href="nutrition-info.html">Nutrition Info</a></li>
-													<li><a href="recipe.html">Recipes</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/error.php">404 Error</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/0-base.php">Blank Page</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/blog.php">Blog</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/blog-single.php">Blog Single</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/components.php">Components</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/general.php">General</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/nutrition-info.php">Nutrition Info</a></li>
+													<li><a href="{$smarty.const.INDEX_URL}view/recipe.php">Recipes</a></li>
 												</ul>
 											</li>
-											<li><a href="aboutus.html"><img src="{$TEMPLATE}img/nav-menu/nav6.jpg" class="img-responsive" alt="" /> About</a></li>
+											<li><a href="{$smarty.const.INDEX_URL}view/aboutus.php"><img src="{$TEMPLATE}img/nav-menu/nav6.jpg" class="img-responsive" alt="" /> About</a></li>
 										</ul>
 									</div><!-- /.navbar-collapse -->
 								</div><!-- /.container-fluid -->

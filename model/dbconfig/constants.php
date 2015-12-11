@@ -27,20 +27,19 @@ if (isset($_SERVER['HTTP_HOST']) && ($_SERVER['HTTP_HOST'] == "localhost" || $_S
 	
 	# Define For Database Name  *	 Database Name	=  sdar
 	 
-	DEFINE('DB_DATABASE', "sample");
+	DEFINE('DB_DATABASE', "cleanlivingclub");
 	
 	# for ini file path
 	define('INI_PATH',BASE_PATH.'view/ini/');
 	
 	define('USER_IMAGE_PATH',BASE_PATH.'view/user/image/');
 	
-	define('USER_UPLOAD_PATH',BASE_PATH.'view/user/');
+	define('USER_UPLOAD_PATH',BASE_PATH.'view/display/upload/');
 	
 	define('SOCIAL_UPLOAD',BASE_PATH.'view/display/smarty/images/');
 		
 	# for error log files
 	define('LOG_FILE_PATH', BASE_PATH.'model/applog');
-	//define('LOG_MAX_LEVEL', BASE_PATH.'controller/errorlog');
 	
 	define('ERROR_LOG_FILE_PATH', BASE_PATH.'controller/errorlog');
 	
@@ -53,22 +52,22 @@ if (isset($_SERVER['HTTP_HOST']) && ($_SERVER['HTTP_HOST'] == "localhost" || $_S
 	
 	#	 Define For Database User Name * Database User Name	= seedtoj1_sdar
 	
-	DEFINE('DB_USER', "dvtsgedm_website");
+	DEFINE('DB_USER', "lovegeni_venkat");
 	
 	#	 Define For Database User Password  *	 Database Password	=   ''
 	
-	DEFINE('DB_PASS', "dvtsgedm_website");
+	DEFINE('DB_PASS', "clc.123");
 	
 	#	 Define For Database Name *	 Database Name	=  sdar
 	
-	DEFINE('DB_DATABASE', "dvtsgedm_website");
+	DEFINE('DB_DATABASE', "lovegeni_clc_dev");
 		 
 	# for ini file path 
 	define('INI_PATH',BASE_PATH.'view/ini/');
 	
 	define('USER_IMAGE_PATH',BASE_PATH.'view/user/image/');
 	
-	define('USER_UPLOAD_PATH',BASE_PATH.'view/user/');
+	define('USER_UPLOAD_PATH',BASE_PATH.'view/display/upload/');
 	
 	
 	
@@ -94,11 +93,10 @@ if (isset($_SERVER['HTTP_HOST']) && ($_SERVER['HTTP_HOST'] == "localhost" || $_S
  * 	Total 14 Tables
  */
 
-DEFINE('TABLE_STATES',"state");
-DEFINE('TABLE_CITYS',"city");
-DEFINE('TABLE_AREAS',"area");
-DEFINE('TABLE_BLOODGROUPS',"blood_group");
-DEFINE('TABLE_REGISTER',"register");
+
+DEFINE('TABLE_MEAL_TYPE',"meal_type");
+DEFINE('TABLE_MEAL_ITEAMS',"meal_items");
+DEFINE('TABLE_USERS',"users");
 
 
 

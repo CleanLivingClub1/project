@@ -12,6 +12,8 @@
 	$smarty->assign('SERVER_PATH', SERVER_PATH);
 	$smarty->assign('INDEX_URL', INDEX_URL);	
 	$smarty->assign('TEMPLATE', TEMPLATE);
+	$smarty->assign('ADMIN_TEMPLATE', ADMIN_TEMPLATE);
+	$smarty->assign('ADMIN_PATH', ADMIN_PATH);
 	
 	$smarty->assign('MANAGER', MANAGER);
 	$smarty->assign('EMPLOYEE', EMPLOYEE);
